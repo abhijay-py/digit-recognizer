@@ -3,7 +3,7 @@
 **A model to recognize digits 0-9 from images.**
 
 The MNIST dataset was retrieved from Kaggle for this project and the model was evaluated on Kaggle as well.
-This data was reshaped from a list of the greyscale values for each pixel from pixel 0 to pixel 783, to a 28x28 matrix representing the original form of the picture. 
+This data was reshaped from a list of the greyscale values for each pixel from pixel 0 to pixel 783, to a 28x28 matrix representing the original form of the picture. The Keras package was used to create the following model.
 
 Then, a convolutional neural network was used to train this model with the following parameters:
 
